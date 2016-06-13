@@ -38,3 +38,6 @@ captures/
 
 # Keystore files
 *.jks
+
+JMCDemo2/.idea/misc.xml
+JMCDemo2/.idea/vcs.xml
