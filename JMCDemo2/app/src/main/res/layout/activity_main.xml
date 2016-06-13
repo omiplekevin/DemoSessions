@@ -4,9 +4,9 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical|center_horizontal"
     android:orientation="vertical"
     android:padding="10dp"
-    android:layout_gravity="center_vertical|center_horizontal"
     tools:context="com.omiplekevin.android.jmcdemo.MainActivity">
 
     <EditText
@@ -14,12 +14,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/edittext_custom_bg"
-        android:drawableLeft="@drawable/user_20px"
         android:drawablePadding="20dp"
+        android:drawableStart="@drawable/user_20px"
         android:hint="username"
         android:paddingBottom="12dp"
-        android:paddingLeft="8dp"
-        android:paddingRight="12dp"
+        android:paddingEnd="12dp"
+        android:paddingStart="8dp"
         android:paddingTop="12dp" />
 
     <EditText
@@ -27,14 +27,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/edittext_custom_bg"
-        android:drawableLeft="@drawable/key_20px"
         android:drawablePadding="20dp"
+        android:drawableStart="@drawable/key_20px"
         android:hint="password"
+        android:inputType="textPassword"
         android:paddingBottom="12dp"
-        android:paddingLeft="8dp"
-        android:paddingRight="12dp"
-        android:paddingTop="12dp"
-        android:inputType="textPassword" />
+        android:paddingEnd="12dp"
+        android:paddingStart="8dp"
+        android:paddingTop="12dp" />
 
     <Button
         android:id="@+id/submitBtn"
